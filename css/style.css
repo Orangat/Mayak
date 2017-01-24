@@ -307,6 +307,9 @@
 /* media queries */
 
 @media (min-width: 320px) and (max-width: 768px) {
+	* {
+		font-size: 16px;
+	}
 	.navbar-header {
 		width: 100%;
 	}
@@ -315,5 +318,57 @@
 	}
 	.navbar-header .navbar-toggle {
 		margin-right: 0;
+	}
+	.big_bg_block {
+		background: #5BC0EC url(../img/Concept-Moscow.jpg) no-repeat;
+	}
+	.bg_h1 {
+		width: 100%;
+		font-size: 28px;
+	}
+	.bg_text {
+		margin: 100px 20px;
+	}
+	.bg_text_first {
+		width: 100%;
+	}
+	.button_bg {
+		width: 100%;
+	}
+	.arrow_h4 {
+		font-size: 22px;
+	}
+	.arrow_arrow {
+		height: 207px;
+		margin: 20px auto 20px;
+	}
+	.section_comment {
+		-webkit-background-size: cover;
+		background-size: cover;
+	}
+	.required {
+		height: 170px;
+	}
+	.first_coment, .second_coment, .third_coment {
+		background: none;
+		padding: 20px;
+	}
+	.coment_text {
+		color: #fff;
+	}
+	.first_h3, .second_h3, .third_h3 {
+		color: #fff
+	}
+	.comment_h2 {
+		font-size: 24px;
+	}
+	.second_coment  {
+		margin: 10px 0;
+	}
+	.section_comment {
+		font-weight: 800;
+	}
+	.center_xs {
+		text-align: center;
 	}
 }
