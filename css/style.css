@@ -313,4 +313,7 @@
 	.arrow_arrow {
 		height: 508px;
 	}
+	.navbar-header .navbar-toggle {
+		margin-right: 0;
+	}
 }
